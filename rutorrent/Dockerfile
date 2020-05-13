@@ -4,4 +4,4 @@ RUN wget https://github.com/alexcreek/plugins/archive/master.zip \
   && unzip master.zip \
   && mkdir -p /usr/share/webapps/rutorrent/plugins \
   && mv plugins-master/* /usr/share/webapps/rutorrent/plugins/
-COPY rtorrent.rc /config/rtorrent
+COPY rtorrent.rc /config/rtorrent/
